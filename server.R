@@ -119,5 +119,5 @@ shinyServer(function(input, output) {
         } else {
             sample.1.est
         }
-    })
+    }, digits=3)
 })
