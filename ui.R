@@ -37,7 +37,7 @@ main.panel <- mainPanel(
         ),
         tabPanel(
             "Documentation",
-            p("stub")
+            includeMarkdown("doc/documentation.md")
         )
     )
 )
